@@ -6,7 +6,23 @@
 */
 
 function countVowels(str) {
-    // Your code here
+
+  let lowerAndUpper = ['A','E','I','O','U','a','e','i','o','u'];
+  let count = 0;
+  for (i = 0; i < str.length; i++){
+    if (lowerAndUpper.includes(str[i])){
+      count++
+  }
+}
+return count;
 }
 
 module.exports = countVowels;
+
+// Your code here
+  // let count= 0;
+  // str = str.toLowerCase();
+  // if() {
+  //   count++;
+  // }
+  // return count;
